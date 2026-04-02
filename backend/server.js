@@ -110,7 +110,7 @@ app.post("/process", async (req, res) => {
     res.json({ ...result, _id: newEmail._id, createdAt: newEmail.createdAt });
   } catch (err) {
     console.error(err.message);
-    res.status(500).json({ error: "Error processing email. Make sure the AI service is running on port 5001." });
+    res.status(500).json({ error: "Error processing email. The AI service is temporarily unavailable. Please try again." });
   }
 });
 
