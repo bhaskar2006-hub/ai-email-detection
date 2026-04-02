@@ -1,0 +1,15 @@
+# Core
+flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+
+# Grok via OpenAI-compatible SDK (xAI uses same interface)
+openai>=1.30.0
+
+# Optional: hf_local mode
+transformers==4.41.2
+torch==2.3.1
+sentencepiece==0.2.0
+
+# Deployment
+gunicorn==21.2.0

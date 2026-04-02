@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+venv/
+__pycache__/
+.DS_Store
+git_error.txt
+git_error2.txt
+*.log
